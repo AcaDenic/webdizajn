@@ -7,7 +7,7 @@
     position: relative; 
     background: #000 url(images/loading.gif) no-repeat 50% 50%;
     margin-top: 100px;
-    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
     box-shadow: 0 0 3px rgba(0,0,0,0.4);
 }
