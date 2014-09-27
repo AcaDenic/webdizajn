@@ -1,0 +1,37 @@
+nav {
+      display: block;
+      /*width: 960px;*/
+      /*margin: 100px auto;*/
+      text-align: center;
+     /* background-color: blue;*/
+       padding-top: 40px;
+    }
+    nav ul {
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+    }
+    nav a {
+      display: inline-block;
+      background: #333;
+      color: white;
+      padding: 5px 15px;
+      border: 1px solid white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      border: 1px solid #566479;
+      background: #3385FF;
+    }
+    nav a:active {
+      background: blue;
+    }
+    nav select {
+      display: none;
+    }
+    
+    @media (max-width: 960px) {
+      nav ul     { display: none; }
+      nav select { display: inline-block; }
+    }
